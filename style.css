@@ -1,0 +1,94 @@
+header{
+    display: flex;
+    
+}
+#images{
+    margin-left: 120px;
+    border: 12px;
+    border-radius: 67px;
+
+}
+img{
+    border-radius: 56px;
+    border:5px groove yellowgreen;
+    height: 270px;
+    width: 450px;
+}
+#yuk{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#name{
+    margin-top: 43px;
+    margin-left: 220px;
+}
+main{
+    background-color: wheat;
+    border: 10px groove black;
+     
+     /* new attributes learned */
+     min-height: 100vh;
+    
+    justify-content: center;
+    padding: 34px 34px 34px 34px;
+    
+
+}
+*{
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    line-height: 23px;
+}
+h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    line-height: 15px;
+    text-decoration: dashed;
+}
+p,ul{
+    text-align: start;
+    font-size: 20px;
+}
+blockquote{
+    font-weight: bolder;
+}
+b{
+    margin-left:12px ;
+}
+li{
+    line-height: 45px;
+}
+button{
+    padding: 15px 13px 15px 15px;
+    display: inline-block;
+    margin-right: 556px;
+    
+}
+
+#fb,a{
+   background-color: white;
+   color: skyblue;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   border :5px solid skyblue;
+   border-radius: 12px;
+   font-size: 20px;
+
+}
+#ig{
+
+   background-color:rgb(211, 12, 165);
+   color: blue;
+   font-family: 'Times New Roman', Times, serif;
+   font-weight: bolder;
+   border :5px solid skyblue;
+   border-radius: 12px;
+   font-size: 20px;
+}
+footer{
+    justify-content:space-around;
+}
